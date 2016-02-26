@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Url on PitsLamp Photography</title>
+    <link>http://www.pitslamp.com/tags/url/</link>
+    <description>Recent content in Url on PitsLamp Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.pitslamp.com/tags/url/feed/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New design, updated portfolio</title>
+      <link>http://www.pitslamp.com/blog/20121025_new-design-updated-portfolio</link>
+      <pubDate>Thu, 25 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pitslamp.com/blog/20121025_new-design-updated-portfolio</guid>
+      <description>
+
+&lt;p&gt;[&lt;img src=&#34;http://www.pitslamp.com/images/blogposts/20121004_Mamiya_RB67_film45-9.jpg&#34; alt=&#34;Bordeaux fountain dance&#34; /&gt;(/images/blogposts/20121004_Mamiya_RB67_film45-9.jpg)&lt;/p&gt;
+
+&lt;p&gt;For those not reading this on my website, I did a redesign of the site and I also updated my &lt;a href=&#34;http://www.pitslamp.com/portfolio&#34; title=&#34;PitsLamp Photography - Portfolio&#34; rel=&#34;me&#34;&gt;portfolio&lt;/a&gt;. Make sure to check it out.&lt;/p&gt;
+
+&lt;p&gt;What does this mean, not much unless you are following this site by RSS.&lt;/p&gt;
+
+&lt;h4 id=&#34;pitslamp-com:5cc0cbeb1ffdca716420b32360b2db22&#34;&gt;PitsLamp.com&lt;/h4&gt;
+
+&lt;p&gt;The url for the rss in English is still the same (&lt;A href=&#34;http://www.pitslamp.com/feed&#34; title=&#34;RSS feed of pitslamp.com&#34; rel=&#34;me&#34;&gt;&lt;a href=&#34;http://www.pitslamp.com/feed/&#34;&gt;http://www.pitslamp.com/feed/&lt;/a&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h4 id=&#34;pitslamp-be:5cc0cbeb1ffdca716420b32360b2db22&#34;&gt;PitsLamp.be&lt;/h4&gt;
+
+&lt;p&gt;The url for the dutch RSS of pitslamp.be is changed to &lt;a href=&#34;http://www.pitslamp.be/feed&#34; title=&#34;RSS feed of pitslamp.be&#34; rel=&#34;me&#34;&gt;&lt;a href=&#34;http://www.pitslamp.be/feed/&#34;&gt;http://www.pitslamp.be/feed/&lt;/a&gt;&lt;/a&gt;. You will still receive updates on the old RSS url, but they&amp;rsquo;ll be in English.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

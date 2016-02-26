@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on PitsLamp Photography</title>
+    <link>http://www.pitslamp.com/about/</link>
+    <description>Recent content in Abouts on PitsLamp Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.pitslamp.com/about/feed/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://www.pitslamp.com/about/</link>
+      <pubDate>Thu, 12 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pitslamp.com/about/</guid>
+      <description>&lt;p&gt;I can write a whole lot of useless info here, like where I was born, how I grew up and so on, but instead I’m just going to tell you how other people describe me in a couple of words.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Iconic hat&lt;/li&gt;
+&lt;li&gt;goatee&lt;/li&gt;
+&lt;li&gt;Straight forward&lt;/li&gt;
+&lt;li&gt;Social&lt;/li&gt;
+&lt;li&gt;Creative&lt;/li&gt;
+&lt;li&gt;Fun&lt;/li&gt;
+&lt;li&gt;Film photographer&lt;/li&gt;
+&lt;li&gt;Big ass camera&lt;/li&gt;
+&lt;li&gt;Problem solver&lt;/li&gt;
+&lt;li&gt;No nonsense&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This video is about my latest project, more info about the project can be found at &lt;a href=&#34;http://www.project-30303030.com&#34; title=&#34;Project #30303030&#34;&gt;Project #30303030&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingress on PitsLamp Photography</title>
+    <link>http://www.pitslamp.com/categories/ingress/</link>
+    <description>Recent content in Ingress on PitsLamp Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2015 01:15:19 +0200</lastBuildDate>
+    <atom:link href="http://www.pitslamp.com/categories/ingress/feed/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Updates and announcements</title>
+      <link>http://www.pitslamp.com/blog/20150820_updates/</link>
+      <pubDate>Fri, 21 Aug 2015 01:15:19 +0200</pubDate>
+      
+      <guid>http://www.pitslamp.com/blog/20150820_updates/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.pitslamp.com/images/blogposts/20150707_zomerhappening_nieuwpoort-8813.jpg&#34; alt=&#34;Beach Nieuwpoort floating sand&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I finally got around of setting back everything like it used to be on the site, while I was doing that, I decided to split off all film photography related things, add some pages, setup some promos and add a new payment method.&lt;/p&gt;
+
+&lt;p&gt;So let me give you an overview:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New intro text on the &lt;a href=&#34;http://www.pitslamp.com&#34;&gt;homepage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New tagline, &amp;ldquo;I shoot people&amp;rdquo; is no longer fitting for my brand.&lt;/li&gt;
+&lt;li&gt;Removed the, never read, about page and restyled the contact page&lt;/li&gt;
+&lt;li&gt;Added 2 new menu-items, &lt;a href=&#34;http://www.pitslamp.com/workshops/&#34;&gt;Workshops&lt;/a&gt; and &lt;a href=&#34;http://www.pitslamp.com/actions/&#34;&gt;Actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Moved fine-art portraits to &lt;a href=&#34;http://www.bunkens.be&#34;&gt;bunkens.be&lt;/a&gt; (under construction atm)&lt;/li&gt;
+&lt;li&gt;Added &lt;a href=&#34;http://www.pitslamp.com/polaroid_studio/&#34;&gt;product portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Announced &lt;a href=&#34;http://www.pitslamp.com/workshops/&#34;&gt;3 workshops&lt;/a&gt; in the coming months&lt;/li&gt;
+&lt;li&gt;Announced &lt;a href=&#34;http://www.pitslamp.com/actions/bitcoin/&#34;&gt;bitcoin payments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Made a page for the &lt;a href=&#34;http://www.pitslamp.com/polaroid_studio/&#34;&gt;polaroid photo booth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Announced a permanent reduction for &lt;a href=&#34;http://www.pitslamp.com/actions/ingress&#34;&gt;Ingress resistance members&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Announced a new &amp;ldquo;I shoot, you decide&amp;rdquo; and renamed it &lt;a href=&#34;http://www.pitslamp.com/actions/pay_what_you_want&#34;&gt;&amp;ldquo;Pay what you want&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More bugfixes and features on the website will be coming soon, but these were the most important.&lt;/p&gt;
+
+&lt;p&gt;It took a lot more time then expected because of another new development in my life. I became a parent at the end of July and it&amp;rsquo;s amazing how much time such a little human can take up.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Camera </title>
+    
+	<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://www.pitslamp.com/css/style.css">
+    
+   	<link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    
+    <link href="http://www.pitslamp.com/tags/camera/index.xml" rel="alternate" type="application/rss+xml" title="PitsLamp Photography" />
+    
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
+	<script type="text/javascript" src="/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	
+	<script type='text/javascript' src='/js/fitvids/jquery.fitvids.js?ver=1.0'></script>
+	
+	<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	
+	<link rel="stylesheet" href="/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+	
+	<script src="/js/bjqs/bjqs-1.3.min.js"></script>
+	<link type="text/css" rel="Stylesheet" href="/css/bjqs.css" />
+</head>
+
+
+<body class="blog singular">
+	<div id="container">
+		<div class="wrap">
+			<div id="header">					
+				<div id="branding">
+					<h1 id="site-title">
+						<a href="http://www.pitslamp.com" title="PitsLamp Photography" rel="Home">
+							<img class="logo" src="/images/logo_pitslamp.png" alt="PitsLamp Photography" />
+						</a>
+					</h1>
+					<h2 id="site-description">
+						<span>Full service photography</span>
+					</h2>						
+				</div>
+				
+	<div id="menu-primary" class="menu-container">
+	<div class="menu">
+		<ul id="menu-primary-items" class="">
+			
+	          
+	            
+					<li class="menu-item "><a href="/">Home</a></li>
+				
+			
+	            
+				  	<li class="menu-item menu-item-has-children " >
+						
+						<a href="/portfolio/">Portfolio</a>
+						<ul class="sub-menu">
+							
+								<li class="menu-item "><a href="/portfolio/advertising/">Concept and advertising</a></li>
+							
+								<li class="menu-item "><a href="/portfolio/event/">Event</a></li>
+							
+								<li class="menu-item "><a href="/portfolio/portrait/">Portrait</a></li>
+							
+								<li class="menu-item "><a href="/portfolio/fine-art-portraits/">Fine art portraits</a></li>
+							
+								<li class="menu-item "><a href="/portfolio/product/">Product</a></li>
+							
+						</ul>
+					</li>
+				
+			
+	            
+					<li class="menu-item "><a href="/blog/">Blog</a></li>
+				
+			
+	            
+				  	<li class="menu-item menu-item-has-children " >
+						
+						<a href="/actions/">Actions</a>
+						<ul class="sub-menu">
+							
+								<li class="menu-item "><a href="/actions/pay_what_you_want/">Pay what you want</a></li>
+							
+								<li class="menu-item "><a href="/actions/bitcoin/">Bitcoin payments</a></li>
+							
+								<li class="menu-item "><a href="/actions/ingress/">Ingress faction promo</a></li>
+							
+						</ul>
+					</li>
+				
+			
+	            
+					<li class="menu-item "><a href="/workshops/">Workshops</a></li>
+				
+			
+	            
+					<li class="menu-item "><a href="/about/">About</a></li>
+				
+			
+	            
+					<li class="menu-item "><a href="/contact/">Contact me</a></li>
+				
+			
+		</ul>
+	</div>
+</div>
+	</div>
+	<div id="main">
+		<div id="content">
+		
+    
+        <div class="hentry">
+	<div class="post-content">
+	<div class="post-aside test">												
+		<div class="byline">Date: <abbr class="published">Jan 31, 2012</abbr></div>				
+		<div class="byline">Category: 
+			<span class="category">
+				
+				    <a href="/categories/review">Review</a>, 
+				  
+			</span>
+		</div>				
+		<div class="entry-meta">
+			<span class="post_tag">
+				<span class="before">Tags: </span>
+				
+				    <a href="/tags/camera">camera</a>, 
+				
+				    <a href="/tags/review">Review</a>, 
+				
+				    <a href="/tags/samsung-nx-200">samsung nx 200</a>, 
+				
+			</span>
+		</div>
+	</div>
+	<div class="blog-content">
+		<h2 class="entry-title">
+			<a href="http://www.pitslamp.com/blog/20120131_samsung_nx200" title="Samsung NX200 review" rel="bookmark">Samsung NX200 review</a>
+		</h2>				
+		<div class="entry-content">
+		<p><a href="http://500px.com/photo/4714271"><img src="http://pcdn.500px.net/4714271/d51bb124b647a08f46e9e108f4813314e78d9765/4.jpg" alt="[Samsung nx200] Long exposures by Filip Bunkens (Pitslamp)) on 500px.com" width="500px" /></a></p>
+
+<p>As a photographer, I get to test new cameras once in a while. That&rsquo;s how I got my hands on a Samsung NX200 camera, a mirror less camera with exchangeable lenses. I&rsquo;m skipping the technical details, as that&rsquo;s outside the scope of this blog. If you&rsquo;re interested in a more technical review, check out my <a href="http://www.achter.be" title="Achter, photography, tech and coffee">other blog</a></p>
+
+<p>I used the NX200 during an extensive period as my everyday camera, it&rsquo;s light, quite small and pretty fast. I have used some other mirror less cameras before and let me start with saying it&rsquo;s not the best mirror less camera I have used till now, but definitely not the worst either. However I haven&rsquo;t found a mirror less camera that is perfect.</p>
+
+<p><a href="http://www.flickr.com/photos/loneblackrider/6796066811/" title="[Samsung nx200] NOTP by PitsLamp photography, on Flickr"><img src="http://farm8.staticflickr.com/7025/6796066811_fbc09b8ec9.jpg" width="500" height="333" alt="[Samsung nx200] NOTP" /></a></p>
+
+<p>My first encounter with the NX200 was when Samsung invited me to the Night of the Proms in Antwerp in the beginning of last november. Everyone invited, was given an NX200 camera and the permission to photograph during the concert. As the camera looks like a point and shoot, you can easily take it to a concert and use there, but it&rsquo;s not ideal.</p>
+
+<p>The camera is small so pretty hard to keep it steady, there is no viewfinder so you need to shoot with the LCD and you need a rather large lens to get a nice shot. Next to those inconveniences there&rsquo;s also the fact that above iso 800 you get a lot of noise, which for me ruins a photo.</p>
+
+<p><a href="http://500px.com/photo/4714308"><img src="http://pcdn.500px.net/4714308/cc7bd653dc8402e2871aee39975ca5463fa1f52b/4.jpg" alt="[Samsung nx200] Long exposures by Filip Bunkens (Pitslamp)) on 500px.com" width="500px" /></a></p>
+
+<p>However, when you stay below 800 iso, I really like the camera. The interface is very intuitive, the quality of the lenses and build quality of the camera is very good. Even very long exposures in color almost don&rsquo;t show any noise on low iso&rsquo;s, as you can see in the photo above.</p>
+
+<p><a href="http://www.flickr.com/photos/loneblackrider/6796342627/" title="[Samsung nx200] Logitech F540 by PitsLamp photography, on Flickr"><img src="http://farm8.staticflickr.com/7168/6796342627_8e4fea1b01.jpg" width="500" height="333" alt="[Samsung nx200] Logitech F540" /></a></p>
+
+<p>The hot shoe on the nx200 is a very nice extra, it makes it possible to use the nx200 with pocketwizards or other off camera flash triggers. This makes that even in a studio this camera can be pretty useful.</p>
+
+<p><a href="http://www.flickr.com/photos/saravdv/6620214279/" title="NewYear-London by saravdv, on Flickr"><img src="http://farm8.staticflickr.com/7171/6620214279_3a40af9991.jpg" width="333" height="500" alt="NewYear-London" /></a></p>
+
+<p>&copy; <a href="http://www.saravdv.be" title="Saravdv" rel="muse friend met">Sara VdV</a></p>
+
+<p>One of the other features, that&rsquo;s very useful are the presets, I really do like the B/W one, but Samsung has decided to go a step further, they even included some lomo-style effects.</p>
+
+<p><a href="http://www.flickr.com/photos/loneblackrider/6796072185/" title="[Samsung nx200] NOTP by PitsLamp photography, on Flickr"><img src="http://farm8.staticflickr.com/7164/6796072185_6e46230f2c.jpg" width="500" height="333" alt="[Samsung nx200] NOTP" /></a></p>
+
+<p>These effects can be added during shooting or afterwards. Although I like to edit my photos afterwards myself, the filters are quite nice and can be useful when you have to quickly deliver photos.</p>
+
+<p>So overall I do like the camera especially for the intuitive interface and the good quality, but I&rsquo;m not a fan of the image quality in the higher ISO range. If Samsung would solve that problem, this camera or it successor will be awesome. If you are looking for a camera during your vacation, I would highly recommend this one, but make sure to get yourself a decent flash for evening photography.</p>
+
+		</div>
+	</div>
+</div>
+</div>
+
+    
+
+
+
+	<div class="pagination loop-pagination">
+		
+		
+			
+				<span class="page-numbers current">
+					1
+				</span>
+			
+		
+	
+
+
+		</div>
+	</div>
+	<div id="sidebar-subsidiary" class="sidebar">
+	<div class="widget">
+		<h3 class="widget-title">Contact me</h3>
+		<div class='vcard'>
+			<a href="http://www.pitslamp.com" class="fn org url" title="PitsLamp &mdash; Photography">PitsLamp Photography</a>
+			<div class='adr'>
+			<div class='street-address'>Rue de l'etang 13</div>
+			<span class='postal-code'>B-1315</span>
+			<span class='locality'>Sart-Risbart</span>
+			</div>
+			<div class='tel_block'>
+				<span class='tel_label'>Call me:</span>
+				<span class='tel'>+32 486 36 29 61</span>
+			</div>
+			<span class='mail_label'>
+				E.
+				<a href="mailto:info@pitslamp.be" class="email">info@pitslamp.com</a>
+			</span>
+		</div>
+	</div>
+	<div class="widget">
+		<h3 class="widget-title">Recent Posts</h3>
+		  <ul>
+		    <li><a href="/blog/20160206_new_workshops/">[Workshops] New dates</a></li>
+		  
+		    <li><a href="/blog/20150824_pitslamp_short_smokey_the_snail/">[PitsLamp short] Smokey, the snail</a></li>
+		  
+		    <li><a href="/blog/20150820_updates/">Updates and announcements</a></li>
+		  </ul>
+	</div>
+</div>
+<div id="footer">
+
+							
+				<p class="copyright">Copyright &#169; 2015 <a class="site-link" href="http://www.pitslamp.com" title="PitsLamp Photography" rel="home"><span>PitsLamp Photography</span></a></p>
+				
+			
+</div>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-2550570-12', 'auto');
+ga('send', 'pageview');
+
+</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+<script>
+ 
+
+var jqu = jQuery.noConflict();
+
+jqu( function () {
+
+	 
+	jqu( "a[href$='.jpg'], a[href$='.jpeg'], a[href$='.png'], a[href$='.gif']" ).attr( 'rel', 'lightbox' );
+	jqu( "a[rel^='lightbox']" ).fancybox( { 
+		transitionIn: 'elastic', 
+		transitionOut: 'elastic', 
+		overlayShow: false, 
+		titleShow: 'inside', 
+		cyclic: true, 
+		speedIn: 400, 
+		speedOut: 300, 
+		titlePosition: 'inside',
+		 } );	
+	
+	 
+	jqu( ".entry-content" ).fitVids();
+	
+} );
+
+ 
+</script>
+
+<script>
+jQuery(document).ready(function($) {
+	$('#header-banner').bjqs({
+		
+		
+		width : 640,
+		height : 427,
+
+		
+		animtype : 'fade', 
+		animduration : 450, 
+		animspeed : 4000, 
+		automatic : true, 
+
+		
+		showcontrols : false, 
+		centercontrols : true, 
+		nexttext : '>', 
+		prevtext : '<', 
+		showmarkers : false, 
+		centermarkers : true, 
+
+		
+		keyboardnav : true, 
+		hoverpause : true, 
+
+		
+		usecaptions : true, 
+		randomstart : false, 
+		responsive : true 
+	});
+});
+</script>
+</body>
