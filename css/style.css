@@ -1,3 +1,5 @@
+/* @override http://localhost:1313//css/style.css */
+
 /*
  * Theme Name: PitsLamp based on Hatch Pro
  * Theme URI: http://devpress.com/shop/hatch-pro/
@@ -33,6 +35,7 @@ body {
 	color: #444;
 	background: #fff;
 	padding: 0;
+	font-weight: normal;
 }
 ::-moz-selection {
 	background: #000;
@@ -71,7 +74,7 @@ acronym:hover {
 small { font-size: 0.8461538461538462em; }
 big { font-size: 1.153846153846154%; }
 p { margin: 0 0 1.615384615384615em 0 }
-b, strong { font-weight: bold; }
+b, strong { font-weight: 900; }
 blockquote {
 	margin: 0 1.615384615384615em;
 	font-style: normal
@@ -189,6 +192,7 @@ img {
 	border: 0;
 	-ms-interpolation-mode: bicubic;
 	vertical-align: middle;
+	max-width: 100%;
 }
 svg:not(:root) { overflow: hidden; }
 form { margin: 0; }
@@ -416,46 +420,38 @@ input[type="submit"]:hover { cursor: pointer }
 .wp-caption a { border: none; }
 /* @end */
 /* @group Galleries */
-.gallery {
-	display: block;
-	clear: both;
+
+.portfolio #main ul { 
+	list-style: none; 
+	margin-left: 0; 
+}
+
+.portfolio #main ul li {
+	margin-right: 30px; !important 
+}
+
+.portfolio #main ul li a { 
+	display: block; 
+	float: left; 
+	width: 150px; 
+	height: 150px; 
+	margin: 0px 20px 20px 20px; 
+}
+
+.portfolio #main ul li a img { 
+	border: none; 
+	position: absolute; 
+	clip: rect(0px 150px 150px 0px); 
+	height: 250px; 
+}
+
+.portfolio #main ul li a {
 	overflow: hidden;
-	margin: 0 auto;
-	margin: 0 !important;
-}
-.gallery br {
-	display: block;
-	line-height: 0;
-	height: 0;
-}
-.gallery a { border: none; }
-.gallery .gallery-row {
-	display: block;
-	clear: both;
-	overflow: hidden;
-	margin: 0
-}
-.gallery .gallery-item {
-	overflow: hidden;
-	float: left;
-	margin: 0;
-	margin: 0 0 20px 0 !important;
-	text-align: left;
-	list-style: none;
-	padding: 0;
-}
-.gallery img, .gallery .gallery-item .gallery-icon img {
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
-}
-.gallery-icon {
-	overflow: hidden;
-	margin: 0;
+	margin: 0 50px 0px 0;
 	width: 150px;
 	border: 1px solid #afafaf;
 	padding: 10px 11px 40px 11px;
-	margin-bottom: 7px;
+	margin-bottom: 30px;
 	background: #fff;
     border-bottom-right-radius: 8px 4px;
 	border-bottom-left-radius: 8px 4px;
@@ -464,7 +460,7 @@ input[type="submit"]:hover { cursor: pointer }
 	box-shadow: 5px 5px 5px #888;
 }
 
-.gallery-icon img {
+.portfolio #main ul li a img {
 	border-bottom-right-radius: 4px 2px;
 	border-bottom-left-radius: 4px 2px;
 	border-top-right-radius: 4px 2px;
@@ -619,32 +615,36 @@ body {
 }
 #menu-primary .menu { float: right; }
 #menu-primary .menu ul { float: right; }
-#menu-primary li {
+#menu-primary ul li {
 	display: block;
 	float: left;
 	min-height: 30px;
+	margin: 0 0 0 0;
 }
 #menu-primary li a {
 	line-height: 1em;
+	margin: 0px;
 	margin-left: 3.5em;
 	display: block;
+	height: 100%;
+	width: 100%;
 	font-weight: bold;
 }
-#menu-primary li.current-menu-item a { color: #bbb; }
+#menu-primary ul li.current-menu-item a, #menu-primary ul li.current-menu-item ul li.current-menu-item a { color: #bbb; }
 #menu-primary li li, #menu-primary li li.current-menu-item li {
 	clear: both;
 	float: none;
 }
 #menu-primary li li:first-child, #menu-primary li li.current-menu-item li:first-child { border-top: none; }
-#menu-primary li li a, #menu-primary li li.current-menu-item li a {
+#menu-primary ul li.current-menu-item ul li a, #menu-primary ul li ul li a, #menu-primary ul li ul li.current-menu-item ul li a {
 	font-size: 1em;
 	font-weight: normal;
 	text-transform: none;
-	color: #888;
-	margin: 0 5px;
+	color: #64a2d8;
 	padding: 12px 15px;
+	margin: 0 5px; !important
 }
-#menu-primary ul li a:hover, #menu-primary li ul li a:hover { color: #222; }
+#menu-primary ul li a:hover, #menu-primary li ul li a:hover, #menu-primary li.current-menu-item ul li a:hover { color: #222; }
 /* @end */
 /* @group Dropdowns*/
 .menu ul {
@@ -661,7 +661,7 @@ body {
 	display: block;
 	position: relative;
 }
-#menu-primary li ul {
+#menu-primary ul li ul {
 	display: none;
 	position: absolute;
 	top: 25px;
@@ -673,9 +673,14 @@ body {
 	box-shadow: 0 0 7px rgba(0,0,0,.11);
 	min-width: 13em;
 	z-index: 100;	
+	padding-top: 10px;
 }
 #menu-primary li:hover ul, #menu-primary li.sfHover ul {
 	display: block;
+}
+
+#menu-primary ul li#current-item ul li a {
+	color: #222;
 }
 #menu-primary li:hover li ul, #menu-primary li.sfHover li ul { top: -999em; }
 #menu-primary li li:hover ul, #menu-primary li li.sfHover ul {
@@ -687,7 +692,7 @@ body {
 
 .menu-item-has-children {
 	padding-right: 15px;
-	background: url(/images/dropdown.png) no-repeat right 0;
+	background: url(/images/dropdown.png) no-repeat right 0.25rem;
 	position: absolute;
 	top: 40%;
 	right: 0;
@@ -699,7 +704,8 @@ body {
 	background: url(/images/dropright.png) no-repeat right bottom;
 	margin-right: 7px;
 }
-.menu li a.sf-with-ul, #menu-secondary li a.sf-with-ul { padding-right: 16px; }
+ul.menu li a, #menu-secondary li a { padding-right: 16px; width: 100%; height: 100%;}
+
 /* @end */
 /* @group Home page */
 #masthead{
@@ -1361,4 +1367,166 @@ img.polaroid {
 	.col-28 { width: 33.33% }
 	.col-29 { width: 33.33% }
 	.col-30 { width: 33.33% }
+}
+
+/* @group Promo homepage */
+
+#promo {
+	height: 180px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#promo .promo-block{
+	display: block;
+	width: 108px;
+	height: 140px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 47px;
+	margin-top: 20px;
+}
+
+#promo .promo-block strong {
+	display: block;
+	margin-top: 35px;
+	margin-bottom: 0;
+	opacity: 0.7;
+	padding: 10px 4px;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	text-align:center;
+}
+
+#promo .promo-item{
+	width: 108px;
+	height: 140px;
+	display: block;
+	float: left;
+	position: relative;
+	margin-right: 47px;
+	margin-top: 20px;
+/*	border: 1px solid #6f6c6b;
+	border-bottom-right-radius: 4px 2px;
+	border-bottom-left-radius: 4px 2px;
+	border-top-right-radius: 4px 2px;
+	border-top-left-radius: 4px 2px; */
+}
+
+#promo .promo-item.last {
+	margin-right: 0px;
+}
+
+#promo .promo-item img {
+	max-width: 108px;
+	margin: auto;
+	display: block;
+	opacity: 0.75;
+}
+
+#promo .promo-item .promo-title {
+	position: absolute; 
+	top: 99px; 
+	left: 0; 
+	width: 100px;
+	margin-bottom: 0;
+	opacity: 0.7;
+	padding: 10px 4px;
+	font-variant: small-caps;
+	font-size: 1.35em;
+	text-align:center;
+}
+
+#promo .promo-item a:hover .promo-title {
+	opacity: 0.9;
+	top: 0px;
+	font-size: 1.35em;
+	padding-top: 112px;
+	/* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* @end */
+
+.contact #main img{
+	width: 300px;
+	float: right;
+	padding: 10px 10px 50px 10px;
+	border-bottom-right-radius: 4px 2px;
+	border-bottom-left-radius: 4px 2px;
+	border-top-right-radius: 4px 2px;
+	border-top-left-radius: 4px 2px;
+	border: 1px solid #afafaf;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #888;
+}
+
+/* @group Polaroid studio */
+
+.polaroid h2, .polaroid p {
+	float: left;
+	width: 675px;
+	margin-left: 50px;
+}
+
+.polaroid p img {
+	padding: 10px 10px 50px 10px;
+	border-bottom-right-radius: 4px 2px;
+	border-bottom-left-radius: 4px 2px;
+	border-top-right-radius: 4px 2px;
+	border-top-left-radius: 4px 2px;
+	border: 1px solid #afafaf;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #888;
+	margin-bottom: 25px;
+}
+
+/* Polaroid image */
+
+.polaroid #container p:nth-of-type(3) {
+	clear:both;
+	float: right;
+	max-width: 200px;
+	margin: 0px 0px 25px 0px;
+}
+
+/* polaroid paragraph */
+
+.polaroid #container p:nth-of-type(4), .polaroid h2:nth-of-type(2) {
+	float: left;
+	width: 675px;
+	margin-left: 0px;
+}
+
+.polaroid #container p:nth-of-type(1), .polaroid #container p:nth-of-type(5){
+	clear: both;
+	display: block;
+	max-width: 200px;
+	padding-right: 0px ;
+	float: left;
+	margin: 0px 25px 25px 0px;
+	margin-left: 0px;
+}
+
+.polaroid #container h2:nth-of-type(4), .polaroid #container p:nth-of-type(7), .polaroid #container p:nth-of-type(8), .polaroid #container p:nth-of-type(9) {
+	clear: both;
+	width: 100%;
+	margin-left: 0px;
+}
+
+/* @end */
+
+/* @group bitcoin */
+
+.bitcoin p:nth-of-type(1) {
+	float: right;
+	display: block;
+	width:300px;
+	margin-left: 25px;
+}
+
+.bitcoin h3 {
+	clear: both;
 }
